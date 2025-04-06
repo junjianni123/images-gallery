@@ -1,7 +1,10 @@
 {
-    "python.testing.pytestArgs": [
-        "frontend"
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "javascriptreact",
     ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
